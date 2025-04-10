@@ -45,5 +45,9 @@ nav{
     
 }
 
-
+.img-profile img {
+    width: 150px; /* Ancho deseado */
+    height: 150px; /* Alto deseado */
+    object-fit: cover; /* Ajusta la imagen si es necesario */
+}
 
