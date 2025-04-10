@@ -1,0 +1,49 @@
+
+
+
+
+header {
+    background-image: url('img/background.webp');
+    background-size: cover; /* Asegura que la imagen cubra todo el área */
+    background-position: bottom; /* Centra la imagen en el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 600px; /* Ajusta la altura del header si es necesario */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.title h1, .title p{
+    color: white;
+}
+
+.title h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.title p{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    align-items: flex-start;
+    min-height: 60px;
+
+    
+}
+
+
+
